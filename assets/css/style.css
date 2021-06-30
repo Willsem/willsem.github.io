@@ -1,4 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Istok Web', sans-serif;
+}
+
+.code-font {
+    font-family: 'Inconsolata', monospace;
+}
+
+.cursive-font {
+    font-family: 'Dancing Script', cursive;
+}
+
+header {
+    background-image: url('../img/header-background.png');
+    background-size: cover;
+    background-position: center;
+}
+
+header nav {
+    position: fixed;
+    top: 0;
+}
+
+header .header-bg {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(#96016948, #d318185d);
+}
+
+header pre {
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+header code {
+    padding: 20px 30px;
+    font-size: 18px;
+    margin: 0 auto;
+    background-color: #00000067;
+    border-radius: 30px;
+    color: #eee;
+}
+
+header .expression-color {
+    color: #be1efd;
+}
+
+header .function-color {
+    color: #0079db;
+}
+
+header .string-color {
+    color: #02c733;
+}
+
+header .spec-string-color {
+    color: #0ed1d1;
+}
+
+header .number-color {
+    color: #e49707;
 }
