@@ -26,40 +26,29 @@ header .header-bg {
     width: 100%;
     height: 100%;
     background-image: linear-gradient(#96016948, #d318185d);
-    padding-bottom: 60px;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 header h1 {
+    font-size: 80px;
     margin-top: 10px;
     text-align: center;
     color: #ddd;
-    text-shadow: 2px 2px 3px black;
+    text-shadow: 3px 5px 5px black;
 }
 
-header pre {
-    width: 100%;
-    display: flex;
-    margin-top: 40px;
-}
-
-header code {
-    padding: 20px 30px;
-    font-size: 18px;
-    margin: 0 auto;
-    background-color: #00000067;
-    border-radius: 30px;
-    color: #eee;
-}
-
-@media (max-width: 500px) {
-    header code {
-        font-size: 12px;
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 48px;
     }
 }
 
-@media (max-width: 350px) {
-    header code {
-        font-size: 10px;
+@media (max-width: 400px) {
+    header h1 {
+        font-size: 32px;
     }
 }
 
