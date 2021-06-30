@@ -22,22 +22,17 @@ header {
     background-position: center;
 }
 
-header nav {
-    position: fixed;
-    top: 0;
-}
-
 header .header-bg {
     width: 100%;
     height: 100%;
     background-image: linear-gradient(#96016948, #d318185d);
+    padding-bottom: 60px;
 }
 
 header pre {
     width: 100%;
     display: flex;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 60px;
 }
 
 header code {
@@ -47,6 +42,18 @@ header code {
     background-color: #00000067;
     border-radius: 30px;
     color: #eee;
+}
+
+@media (max-width: 500px) {
+    header code {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 350px) {
+    header code {
+        font-size: 10px;
+    }
 }
 
 header .expression-color {
